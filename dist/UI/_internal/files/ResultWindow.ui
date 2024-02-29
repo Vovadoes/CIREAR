@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Процентная годова я ставка, эквивалентная данной учетной ставке, равна</string>
+   <string>Процентная годовая ставка, эквивалентная данной учетной ставке, равна</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
