@@ -47,6 +47,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(14)
+        font.setItalic(True)
         self.label_2.setFont(font)
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 0, 1, 1, 1)
@@ -100,6 +101,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(14)
+        font.setItalic(True)
         self.label_7.setFont(font)
         self.label_7.setObjectName("label_7")
         self.gridLayout_2.addWidget(self.label_7, 0, 1, 1, 1)
@@ -166,8 +168,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Расчет процентных ставок эквивалентных учетным ставкам"))
-        self.label_11.setText(_translate("MainWindow", "<html><head/><body><p>Расчет процентных ставок эквивалентных учетным ставкам</p></body></html>"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Расчет процентных ставок, эквивалентных учетным ставкам"))
+        self.label_11.setText(_translate("MainWindow", "<html><head/><body><p>Расчет процентных ставок, эквивалентных учетным ставкам</p></body></html>"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p>Введите размер годовой учетной ставки:</p></body></html>"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p>d</p></body></html>"))
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p>=</p></body></html>"))

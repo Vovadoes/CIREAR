@@ -35,6 +35,7 @@ class Ui_Form(object):
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(14)
+        font.setItalic(True)
         self.label_2.setFont(font)
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 0, 1, 1, 1)
@@ -95,8 +96,8 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Процентная годова я ставка, эквивалентная данной учетной ставке, равна"))
-        self.label.setText(_translate("Form", "Процентная годова я ставка, эквивалентная данной учетной ставке, равна:"))
+        Form.setWindowTitle(_translate("Form", "Процентная годовая ставка, эквивалентная данной учетной ставке, равна"))
+        self.label.setText(_translate("Form", "Процентная годовая ставка, эквивалентная данной учетной ставке, равна:"))
         self.label_2.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:14pt;\">i</span></p></body></html>"))
         self.label_3.setText(_translate("Form", "="))
         self.label_4.setText(_translate("Form", "%"))
