@@ -40,7 +40,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Процентная годова я ставка, эквивалентная данной учетной ставке, равна:</string>
+        <string>Процентная годовая ставка, эквивалентная данной учетной ставке, равна:</string>
        </property>
       </widget>
      </item>
@@ -62,6 +62,7 @@
         <font>
          <family>Times New Roman</family>
          <pointsize>14</pointsize>
+         <italic>true</italic>
         </font>
        </property>
        <property name="text">
