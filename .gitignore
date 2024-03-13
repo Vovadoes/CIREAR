@@ -1,3 +1,5 @@
+/UI.spec
 /build
-/.idea
-/*.spec
+.idea
+/.venv
+__pycache__
